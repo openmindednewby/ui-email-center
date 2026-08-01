@@ -54,7 +54,8 @@
         "dist",
         "README.md",
         "CHANGELOG.md",
-        "ADOPTION.md"
+        "ADOPTION.md",
+        "LICENSE"
     ],
     "sideEffects": false,
     "engines": {
