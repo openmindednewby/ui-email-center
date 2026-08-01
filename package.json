@@ -1,6 +1,6 @@
 {
     "name": "@dloizides/ui-email-center",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Shared, brand-agnostic React Native (RN-web) 'Email Center' surface for the dloizides.com portfolio: a per-product registry of every transactional email a product sends, organized by an extensible business taxonomy, with per-tenant/per-event copy customization, dynamic-field ({{token}}) preview, and pluggable save/send-status ports. Built on @dloizides/ui-feedback|forms|buttons.",
     "keywords": [
         "react",
