@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Recipient picker helpers for To/Cc boxes: `parseAddresses`, `badAddresses(text, isValid)`, `recipientChoices(people, own, boxes)`, `addAddress`, `completeAddress`, `matchingChoices`, `isStillChoosing`. The product passes its own address rule (`AddressCheck`) and the own-address label.
+
 ## 0.1.0 — first slice (task #303)
 
 Initial, unpublished slice of the shared Email Center.

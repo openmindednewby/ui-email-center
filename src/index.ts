@@ -22,6 +22,16 @@ export { renderPreview } from './logic/preview';
 export { initialDraft, diffOverride, buildOverride, isDraftDirty } from './logic/draft';
 export { createEmailRegistry } from './logic/registry';
 export type { EmailRegistry } from './logic/registry';
+export { parseAddresses, badAddresses } from './logic/addresses';
+export type { AddressCheck } from './logic/addresses';
+export {
+  recipientChoices,
+  addAddress,
+  completeAddress,
+  matchingChoices,
+  isStillChoosing,
+} from './logic/recipientPicker';
+export type { RecipientPerson, RecipientBoxes, OwnAddress } from './logic/recipientPicker';
 
 // Constants (test ids + i18n keys the consuming app must translate)
 export {
